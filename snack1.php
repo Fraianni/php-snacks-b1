@@ -5,13 +5,13 @@
 // Olimpia Milano - Cantù | 55-60 -->
 <?php
 
-$games =[
+$games = [
     [
         'home' => 'Juve',
         'away' => 'Milan',
         'homePoints' => '20',
         'awayPoints' => '30'
-        
+
     ],
     [
         'home' => 'Udinese',
@@ -24,30 +24,27 @@ $games =[
         'away' => 'Roma',
         'homePoints' => '20',
         'awayPoints' => '30'
-        
+
     ],
     [
         'home' => 'Genoa',
         'away' => 'Sampdoria',
         'homePoints' => '20',
         'awayPoints' => '30'
-        
+
     ],
 ];
 
-for($i=0;$i<count($games);$i++){
-    $game=$games[$i];
-    ?>
-    <p><?= $game['home']  ?> - <?= $game['away'] ?> | <?= $game['homePoints']?>-<?= $game['awayPoints']  ?> </p>
+for ($i = 0; $i < count($games); $i++) {
+    $game = $games[$i];
+?>
+    <p><?= $game['home']  ?> - <?= $game['away'] ?> | <?= $game['homePoints'] ?>-<?= $game['awayPoints']  ?> </p>
 
-    <?php
+<?php
 
- 
+
 }
 
-  
+
 
 ?>
-
-
-
